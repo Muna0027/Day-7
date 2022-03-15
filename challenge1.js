@@ -78,7 +78,7 @@ function timeRunning(distance, time){
 }
 timeRunning(20,4)
 
-weight = mass x gravity
+//weight = mass x gravity
 
 function weightOfObject(mass,gravity){
     let weight = mass * gravity
@@ -86,7 +86,7 @@ function weightOfObject(mass,gravity){
 }
 weightOfObject(400,9.81)
 
-oF = (oC x 9/5) + 32.
+//oF = (oC x 9/5) + 32.
 
 function convertCelsiusToFahrenheit(celsius){
     let fahrenheit = 9/5 * celsius + 32
@@ -98,7 +98,7 @@ convertCelsiusToFahrenheit(20)
 //bmi = weight in Kg / (height x height) in m2
 
 function bodyMassIndex(kg,height,height) {
-    let BMI = kg / height * height
+    let BMI = kg / height * height;
     console.log(BMI)
 }
 bodyMassIndex(54,1.7,1.7)
@@ -106,10 +106,10 @@ bodyMassIndex(54,1.7,1.7)
 //Write a function called checkSeason, it takes a month parameter and returns the season:Autumn, Winter, Spring or Summer.
 
 function checkSeason(Autumn,Winter,Spring,Summer){
-    let month =
+    let month = 0;
 }
 
-ax + by + c = 0
+//ax + by + c = 0
 
 function solveLinEquation(ax,by,c){
     let value = ax * by + c 
