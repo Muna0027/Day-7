@@ -95,7 +95,7 @@ function convertCelsiusToFahrenheit(celsius){
 
 convertCelsiusToFahrenheit(20)
 
-bmi = weight in Kg / (height x height) in m2
+//bmi = weight in Kg / (height x height) in m2
 
 function bodyMassIndex(kg,height,height) {
     let BMI = kg / height * height
@@ -103,7 +103,7 @@ function bodyMassIndex(kg,height,height) {
 }
 bodyMassIndex(54,1.7,1.7)
 
-Write a function called checkSeason, it takes a month parameter and returns the season:Autumn, Winter, Spring or Summer.
+//Write a function called checkSeason, it takes a month parameter and returns the season:Autumn, Winter, Spring or Summer.
 
 function checkSeason(Autumn,Winter,Spring,Summer){
     let month =
@@ -135,5 +135,13 @@ console.log(array)
 }
 capitalizeArray();
 
+//bmi = weight in Kg / (height x height) in m2
 
+const bodyMassIndex = (kg, height, height = 5.7) => kg/ height * height **2
+console.log(`Body Mass Index in Kg:`, bodyMassIndex(64))
+
+
+
+const weightOfObject = (mass, gravity = 9.81) => mass * gravity + ' N'  
+console.log('Weight of an object in Newton: ', weightOfObject(100)) // 9.81 
 
